@@ -1,0 +1,13 @@
++-----------------+       +--------------+
+|     Categorie   |       |    Articles   |
++-----------------+       +--------------+
+| - id            |<>-----| - id         |
+| - nom          |        | - nom        |
+| - description   |       | - description|
+|                 |<>-----| - prix       |
+|                 |       | - quantité   |
+|                 |       | - categorie_id|
++-----------------+       +--------------+
+
+"Categorie" peut être associée à plusieurs instances de la classe "Article"
+"Article" peut être associée à une seule instance de la classe "Categorie".
